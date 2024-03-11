@@ -96,19 +96,39 @@ p, h1, h2, h3, h4, h5, h6{
 
     @media only screen and (min-width:768px) {
       .logo{
-        /* margin-right: 120px; */
+        margin-right: 120px;
+        
       } 
       .header-menu{
         display: flex;
         gap: 40px;
             }
+    .header-nav-flex{
+        align-items: center;   
+        margin-right: auto;
+        display: flex;
+        }
 
-      .address{
+       .adress-flex{
         display: flex;
         font-style:normal;
+        flex-direction: column;
+        padding-bottom: 16px;
+        padding-top: 16px;        ;
+        }
+        .address .address-link{
+            color:#434455;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.17;
+            letter-spacing: 0.04em;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .address .address-link:hover,
+        .address .address-link:focus{
+            color: #404BBF;
         }
         .header-container{
-        display: flex; 
         border-bottom: 1px solid #E7E9FC;
         background-color: #FFF;
             
@@ -126,10 +146,53 @@ p, h1, h2, h3, h4, h5, h6{
         .open-mobile-menu-btn{
         display: none;
         }
+        .header-nav{
+            color:#2E2F42;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+             padding: 24px 0;  
+             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+    
+            .header-nav:hover,
+            .header-nav:focus {
+            color: #404BBF;
     }
+    .current::after{
+        content: '';
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color:#404BBF;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        }
+        .current{
+        position:relative;
+        color: #404BBF;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+            }
     
     @media only screen and (min-width:1158px){
         .logo{
-            margin-right: 76px;
-          }   
+        margin-right: 76px;
+          }  
+        .header-nav{
+        padding: 24px 0;  
+              }
+    
+        .adress-flex{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+            }   
+        .address .address-link{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;      
     }
+}
