@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6{
     }
 .container{
     max-width: 320px;
-    padding:0; 
+    padding:0 16px; 
     margin: 0 auto; 
 }
 @media only screen and (min-width:768px){
@@ -54,6 +54,7 @@ p, h1, h2, h3, h4, h5, h6{
     .header-container{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .logo{
         color:#4D5AE5;
@@ -63,9 +64,6 @@ p, h1, h2, h3, h4, h5, h6{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        
     }
     .logo .logo-word{
       color:#2E2F42;
@@ -76,15 +74,11 @@ p, h1, h2, h3, h4, h5, h6{
       
     }
     .open-mobile-menu-btn{
-    width: 24px;
-    height: 24px;
     cursor: pointer;
     border:none;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:transparent;
     padding: 0;
+    line-height: 0;
     }
     .icon-mobile-menu{
     stroke:#2f2f37;
@@ -92,6 +86,15 @@ p, h1, h2, h3, h4, h5, h6{
 
     .logo .logo-word:hover{
     color: #404BBF;
+    }
+    
+    .header-navigation{
+        border-bottom: 1px solid #E7E9FC;   
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+        padding-top: 17.5px;
+        padding-bottom: 17.5px;    
     }
 
     @media only screen and (min-width:768px) {
@@ -133,12 +136,7 @@ p, h1, h2, h3, h4, h5, h6{
         background-color: #FFF;
             
         }
-        .header-navigation{
-            border-bottom: 1px solid #E7E9FC;   
-            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 1px 6px rgba(46, 47, 66, 0.08);    
-        }
+        
         .navigation-item{
             padding: 24px 0;
         }
