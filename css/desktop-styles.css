@@ -149,7 +149,6 @@ p, h1, h2, h3, h4, h5, h6{
         background-image:linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg); 
         background-repeat: no-repeat;
         background-position: center;
-        background-color:#2E2F42;
         background-size: cover;
         margin: 0 auto;
     }
