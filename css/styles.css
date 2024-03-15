@@ -356,3 +356,29 @@ color: #4d5ae5;
 @media only screen (min-width:1158px) {
     
 }
+
+/* ----------------ADVANTAGES---------------- */
+.visually-hidden {
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    bottom: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+        } 
+
+.advantages-icons{
+    display:none;
+ }   
+.advantages-name{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
