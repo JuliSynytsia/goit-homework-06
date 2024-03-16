@@ -204,7 +204,7 @@ p, h1, h2, h3, h4, h5, h6{
       }
      
 .advantages-list{
-    display: flex;
+display: flex;
 gap: 24px;
 }
 .advantages{
@@ -248,7 +248,7 @@ gap: 24px;
     .team {
     background-color: #F4F4FD;
     padding-top: 120px;
-        padding-bottom: 120px;  
+    padding-bottom: 120px;  
     }
     .team-container{
           
