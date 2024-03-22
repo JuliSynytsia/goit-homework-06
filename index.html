@@ -328,24 +328,26 @@
     </div>    
 </div>
 </footer>
-<section class="mobile-menu">
+<div class="mobile-menu">
     <div class="container mobile-menu-container">
         <button type="button" class="mobile-menu-close">
             <svg class="mobile-menu-close-icon" width="8" height="8">
                 <use href="./images/icons.svg#close-modal"></use>
             </svg>
         </button>
-        <ul class="mobile-list">
-            <li class="mobile-list-item">
-               <a href="./index.html" class="mobile-list-focus">Studio</a></li>
-            <li class="mobile-list-item">
-               <a href="" class="mobile-list-focus">Portfolio</a></li>
-            <li class="mobile-list-item">
-               <a href="" class="mobile-list-focus">Contacts</a></li>
-        </ul>
+        <nav class="mobile-nav">
+            <ul class="mobile-list">
+                <li class="mobile-list-item">
+                   <a href="./index.html" class="mobile-list-focus color">Studio</a></li>
+                <li class="mobile-list-item">
+                   <a href="" class="mobile-list-focus">Portfolio</a></li>
+                <li class="mobile-list-item">
+                   <a href="" class="mobile-list-focus">Contacts</a></li>
+            </ul>
+        </nav>
         <adress class="mobile-adress">
             <ul class="mobile-adress-list">
-                <li  class="mobile-adress-item"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li  class="mobile-adress-item color-tel"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 <li  class="mobile-adress-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             </ul>
         </adress>
@@ -380,8 +382,8 @@
             </li>
         </ul>
     </div>
-</section>
-<div class="backdrop">
+</div>
+<div class="backdrop is-open">
    <div class="form">
     <button type="button" class="modal-close-btn">
     <svg class="close-icon" width="8" height="8">
